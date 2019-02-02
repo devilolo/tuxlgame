@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dictionnaire
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns='http://myGame/tux'
+    xsi:schemaLocation='http://myGame/tux file:/home/l/lemairlo/LangagePourLeWeb/TLG/xsd/dico.xsd'> 
+    <mot niveau="1" >Oui</mot>
+    <mot niveau="2">Non</mot>
+    <mot niveau="2">Adam</mot>
+    <mot niveau="2">Benoit</mot>
+    <mot niveau="3">Perle</mot>
+    <mot niveau="3">Frite</mot>
+    <mot niveau="3">Quentin</mot>
+    <mot niveau="4">
+        Yacine
+    </mot>
+    <mot niveau="4">
+        Mac-ron
+    </mot>
+    <mot niveau="5">
+        Perlinpinpin
+    </mot>
+    <mot niveau="5">
+        Abracadabra
+    </mot>
+</dictionnaire>

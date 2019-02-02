@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<vds:cabinet
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:vds='http://www.ujf-grenoble.fr/l3miage/medical'
+    xsi:schemaLocation='http://www.ujf-grenoble.fr/l3miage/medical ./cabinetInfirmier.xsd'>
+    
+    <vds:nom>Soins à Grenoble</vds:nom>
+    <vds:adresse>
+        <vds:numéro>60</vds:numéro>
+        <vds:rue>rue de la Chimie</vds:rue>
+        <vds:ville>Grenoble</vds:ville>
+        <vds:codePostal>38041</vds:codePostal>
+    </vds:adresse>
+    <vds:infirmiers>
+        <vds:infirmier id="001">
+            <vds:nom>Fréchie</vds:nom>
+            <vds:prénom>Sarah</vds:prénom> 
+            <vds:photo>sarah.png</vds:photo>
+        </vds:infirmier>
+        <vds:infirmier id="002">
+            <vds:nom>Stické</vds:nom>
+            <vds:prénom>Sophie</vds:prénom> 
+            <vds:photo>sophie.png</vds:photo>
+        </vds:infirmier>
+        <vds:infirmier id="003">
+            <vds:nom>Ochon</vds:nom>
+            <vds:prénom>Paul</vds:prénom> 
+            <vds:photo>paul.png</vds:photo>
+        </vds:infirmier>        
+    </vds:infirmiers>
+    <vds:patients>
+        <vds:patient>
+            <!-- Homme, née en aout 98 en France,
+            à Marseille (n°55 en bouche du rhône)
+            458e naissance
+            -->
+            <vds:nom>Alécole</vds:nom>
+            <vds:prénom>Yvon</vds:prénom>
+            <vds:sexe>M</vds:sexe>
+            <vds:naissance>1998-08-02</vds:naissance>
+            <vds:numéro>198082205545852</vds:numéro>
+            <vds:adresse>
+                <vds:étage>6</vds:étage>
+                <vds:numéro>50</vds:numéro>
+                <vds:rue>avenue Félix Viallet</vds:rue>
+                <vds:ville>Grenoble</vds:ville>
+                <vds:codePostal>38031</vds:codePostal>
+            </vds:adresse>
+            <vds:visite date="2015-12-08" intervenant="001" >
+                <vds:acte id="109"></vds:acte>
+            </vds:visite>
+        </vds:patient>
+        <vds:patient>
+            <vds:nom>Orouge</vds:nom>
+            <vds:prénom>Elvire</vds:prénom>
+            <vds:sexe>F</vds:sexe>
+            <vds:naissance>1982-03-08</vds:naissance>
+            <vds:numéro>282036902305218</vds:numéro>
+            <vds:adresse>
+                <vds:rue>Rond-Point de la Croix de Vie</vds:rue>
+                <vds:ville>La Tronche</vds:ville>
+                <vds:codePostal>38700</vds:codePostal>
+            </vds:adresse>
+            <vds:visite date="2015-12-08"  >
+                <vds:acte id="300"></vds:acte>
+            </vds:visite>
+        </vds:patient>
+        <vds:patient>
+            <vds:nom>Pien</vds:nom>
+            <vds:prénom>Oscare</vds:prénom>
+            <vds:sexe>M</vds:sexe>
+            <vds:naissance>1975-03-25</vds:naissance>
+            <vds:numéro>175037306569252</vds:numéro>
+            <vds:adresse>
+                <vds:rue>rue Casimir Brenier</vds:rue>
+                <vds:ville>Grenoble</vds:ville>
+                <vds:codePostal>38000</vds:codePostal>
+            </vds:adresse>
+            <vds:visite date="2015-12-08"  >
+                <vds:acte id="101"></vds:acte>
+                <vds:acte id="105"></vds:acte>
+            </vds:visite>
+        </vds:patient>
+        <vds:patient>
+            <vds:nom>Kapoëtla</vds:nom>
+            <vds:prénom>Xavier</vds:prénom>
+            <vds:sexe>M</vds:sexe>
+            <vds:naissance>2011-08-02</vds:naissance>
+            <vds:numéro>111083306303521</vds:numéro>
+            <vds:adresse>
+                <vds:numéro>25</vds:numéro>
+                <vds:rue>rue des Martyrs</vds:rue>
+                <vds:ville>Grenoble</vds:ville>
+                <vds:codePostal>38042</vds:codePostal>
+            </vds:adresse>
+            <vds:visite date="2015-12-08" >
+                <vds:acte id="111"></vds:acte>
+            </vds:visite>
+        </vds:patient>
+    </vds:patients>
+</vds:cabinet>

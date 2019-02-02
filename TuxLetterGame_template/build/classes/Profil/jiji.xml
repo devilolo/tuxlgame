@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ./profil.xsd ">
+    <nom>jiji</nom>
+    <avatar>jiji.png</avatar>
+    <anniversaire>1998-08-02</anniversaire>
+    <parties/>
+</profil>

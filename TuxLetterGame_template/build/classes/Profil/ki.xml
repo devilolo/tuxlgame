@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="profil.xsl"?><profil xmlns="http://myGame/tux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/tux ./profil.xsd ">
+    <nom>ki</nom>
+    <avatar>ki.png</avatar>
+    <anniversaire>1995-05-02</anniversaire>
+    <parties/>
+</profil>

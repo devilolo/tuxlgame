@@ -1,0 +1,58 @@
+<html xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" xmlns:vds="http://www.ujf-grenoble.fr/l3miage/medical">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="./js/facture.js"></script><script type="text/javascript">     
+                               
+                    function openFacture(prénom, nom, actes) {
+                    var width  = 500;
+                    var height = 300;
+                    if(window.innerWidth) {
+                    var left = (window.innerWidth-width)/2;
+                    var top = (window.innerHeight-height)/2;
+                    }
+                    else {
+                    var left = (document.body.clientWidth-width)/2;
+                    var top = (document.body.clientHeight-height)/2;
+                    }
+                    var factureWindow = window.open('','facture','menubar=yes, scrollbars=yes, top='+top+', left='+left+', width='+width+', height='+height+'');
+                    var factureText = afficherFacture(prénom, nom, actes);
+                    factureWindow.document.write(factureText);
+                    } 
+                                            
+                </script>
+<title>Emploi du temps</title>
+</head>
+<body>
+<h1>
+                    Bonjour Sarah</h1>
+<h1>
+                    Aujourd'hui, vous avez 1 patients
+                </h1>
+<table>
+<tr>
+<th>
+                            nom
+                        </th><th>
+                            adresse
+                        </th><th>
+                            intervention
+                        </th><th>
+                            Facture
+                        </th>
+</tr>
+<tr>
+<td>Al&eacute;cole</td><td>
+                &eacute;tage:6<br>50avenue F&eacute;lix Viallet<br>38031Grenoble</td><td>
+<ul>
+<li>
+            Injection sous-cutan&eacute;e.
+        </li>
+</ul>
+</td><td><button onclick="openFacture('Yvon','Al&eacute;cole','109')"> 
+                    facture 
+                </button></td>
+</tr>
+</table>
+</body>
+</html>

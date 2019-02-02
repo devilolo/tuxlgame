@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profil>
+    <nom>jojo</nom>
+    <avatar>bg</avatar>
+    <anniversaire>ty</anniversaire>
+    <parties>
+        <partie date="2018-11-17" trouvé="100%">
+            <temps>16</temps>
+            <mot niveau="3">Frite</mot>
+        </partie>
+    </parties>
+</profil>

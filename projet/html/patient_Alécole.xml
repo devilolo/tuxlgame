@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><patient>
+<nom>Pien</nom>
+<prénom>Oscare</prénom>
+<sexe>M</sexe>
+<naissance>1975-03-25</naissance>
+<numéroSS>1750373065692</numéroSS>
+<adresse>
+<rue>rue Casimir Brenier</rue>
+<ville>Grenoble</ville>
+<codePostal>38000</codePostal>
+</adresse>
+<visite date="2015-12-08">
+<intervenant/>
+<acte> 
+            Prélèvement par ponction veineuse directe
+        </acte>
+<acte>
+            Injection intraveineuse directe en série.
+        </acte>
+</visite>
+</patient>

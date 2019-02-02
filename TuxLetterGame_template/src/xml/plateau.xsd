@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://myGame/tux"
+           targetNamespace="http://myGame/tux"
+           elementFormDefault="qualified">
+    <xs:element name="plateau" type="Plateau" />
+
+    <xs:complexType name="Plateau">
+        <xs:sequence>
+            <xs:element name="dimensions" type="Dimensions">
+            </xs:element>
+            <xs:element name="mapping" type="Mapping">                
+            </xs:element>
+            <xs:element name="pion" type="xs:string">                
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>  
+    
+    <xs:complexType name="Dimensions">
+        <xs:sequence>
+            <xs:element name="height" type="xs:int">
+            </xs:element>
+            <xs:element name="width" type="xs:int">                
+            </xs:element>
+            <xs:element name="depth" type="xs:int">                
+            </xs:element>
+        </xs:sequence>          
+    </xs:complexType>                      
+        
+    <xs:complexType name="Mapping">
+        <xs:sequence>
+            <xs:element name="textureBottom" type="xs:string">
+            </xs:element>
+            <xs:element name="textureEast" type="xs:string">                
+            </xs:element>
+            <xs:element name="textureWest" type="xs:string">                
+            </xs:element>
+            <xs:element name="textureNorth" type="xs:string">                
+            </xs:element>
+        </xs:sequence>          
+    </xs:complexType>
+</xs:schema>

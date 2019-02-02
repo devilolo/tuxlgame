@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dictionnaire
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns='http://myGame/tux'
+    xsi:schemaLocation='http://myGame/tux ./dico.xsd'>
+    <mot niveau="1">Oui</mot>
+    <mot niveau="1">Nos</mot>
+    <mot niveau="1">Ami</mot>
+    <mot niveau="1">Age</mot>
+    <mot niveau="1">Pot</mot>
+    <mot niveau="2">Jour</mot>
+    <mot niveau="2">Aile</mot>
+    <mot niveau="2">Nuit</mot>
+    <mot niveau="2">Poix</mot>
+    <mot niveau="2">Loup</mot>
+    <mot niveau="3">Jours</mot>
+    <mot niveau="3">Mario</mot>
+    <mot niveau="3">Melon</mot>
+    <mot niveau="3">Skate</mot>
+    <mot niveau="3">Pouce</mot>
+    <mot niveau="4">Pouces</mot>
+    <mot niveau="4">Frites</mot>
+    <mot niveau="4">Brique</mot>
+    <mot niveau="4">Debout</mot>
+    <mot niveau="4">Rythme</mot>
+    <mot niveau="5">Abricot</mot>
+    <mot niveau="5">Charges</mot>
+    <mot niveau="5">Negatif</mot>
+    <mot niveau="5">Ardoise</mot>
+    <mot niveau="5">Jukebox</mot>
+
+</dictionnaire>
+
+<!--
+Les mots de niveau 1 : 3 lettres, de niveau 2 : 4 lettres, de niveau 3 : 5 lettres, de niveau 4 : 6 lettres et de niveau 5 : 7 lettres
+-->

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tux="http://myGame/tux"
+           targetNamespace="http://myGame/tux"
+           elementFormDefault="qualified">
+    <xs:include schemaLocation="../XML/dico.xsd"/>
+    
+    <xs:element name="profil" type="tux:Profil" />
+
+    <xs:complexType name="Profil">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string">
+            </xs:element>
+            <xs:element name="avatar" type="xs:string">
+            </xs:element>
+            <xs:element name="anniversaire" type="xs:date">
+            </xs:element>
+            <xs:element name="parties" type="tux:Parties">
+            </xs:element>
+        </xs:sequence>          
+    </xs:complexType>
+    
+    
+    <xs:complexType name="Parties">
+        <xs:sequence>
+            <xs:element name="partie" type="tux:Partie" maxOccurs ="unbounded">
+            </xs:element>
+        </xs:sequence>          
+    </xs:complexType>
+    
+    <xs:complexType name="Partie">
+        <xs:sequence>
+            <xs:element name="temps" type="xs:double" minOccurs ="0">
+            </xs:element>
+            <xs:element name="mot" type="tux:Mot" minOccurs ="1">
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="date" type="xs:date"/> 
+        <xs:attribute name="trouvé" type="xs:string"/>         
+    </xs:complexType>
+    
+</xs:schema>
